@@ -5,4 +5,4 @@
 
 ## View it live
 
-the-even-better-foxes.netlify.app/
+https://the-even-better-foxes.netlify.app
