@@ -1,13 +1,242 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Orbitron", Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  margin: 10px;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  font-size: 38px;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.start-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(26, 25, 25, 0.808);
+  border-radius: 10%;
+  padding: 10%;
+  text-align: center;
+  font-family: "Matrix", sans-serif;
+}
+
+.rabbit-text {
+  font-family: "Orbitron", Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: white;
+}
+.pill-image {
+  width: auto;
+  height: 20px;
+  filter: invert(100%);
+  margin: auto;
+}
+
+button {
+  font-family: "Orbitron", Verdana, sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 520px;
+  height: auto;
+  margin: 5px;
+  text-align: left;
+}
+.button-container {
+  display: flex;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.default-button {
+  border: 2px solid rgb(8, 8, 8);
+  width: 100%;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.default-button:hover {
+  background-color: rgb(71, 70, 70);
+}
+.right-button {
+  background-color: rgba(4, 179, 83, 0.314);
+  border: 2px solid rgb(4, 179, 83);
+  width: 100%;
+  cursor: pointer;
+  color: white;
+}
+
+.wrong-button {
+  background-color: rgb(255, 58, 58, 0.314);
+  border: 2px solid rgb(255, 58, 58);
+  width: 100%;
+  cursor: pointer;
+  color: white;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(26, 25, 25, 0.938);
+  border-radius: 10%;
+  padding: 40px;
+}
+
+.next-button,
+.re-start-button {
+  font-family: "Matrix", sans-serif;
+  cursor: pointer;
+  width: 300px;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  box-shadow: 0 0 40px 40px #0fa inset, 0 0 0 0 #0fa;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.next-button:hover,
+.re-start-button:hover {
+  box-shadow: 0 0 10px 0 #0fa inset, 0 0 10px 4px #0fa;
+}
+
+.counter-container {
+  color: #0fa;
+  margin: 0 auto;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.counter-text {
+  margin: 10;
+}
+
+/* summary css*/
+
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(26, 25, 25, 0.808);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 2%;
+  padding: 20px;
+  border-radius: 10px;
+}
+.answer-container {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  letter-spacing: 1.7px;
+}
+.correct-answer {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #0fa;
+}
+.question {
+  font-weight: bold;
+}
+.user-answer {
+  display: block;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  video {
+    display: none;
+  }
+
+  .main-container {
+    background-image: url(/matrix-image.jpeg);
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .start-container {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .next-button {
+    width: 200px;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    width: 85%;
+  }
+
+  .re-start-button {
+    width: 200px;
+  }
+
+  .counter-container {
+    width: 100%;
+  }
+
+  .default-button,
+  .wrong-button,
+  .right-button {
+    height: 100%;
+  }
+
+  .summary-container {
+    position: relative;
+    margin: 2%;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    transform: none;
+    background-image: url(/matrix-image.jpeg);
+    background-size: cover;
+  }
+
+  .answer-container {
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wrapper {
+    width: 60%;
+  }
+
+  .summary-container {
+    width: 70%;
+  }
 }

@@ -1,0 +1,56 @@
+## **Planning**
+
+**You should discuss these questions before you fork and clone the repo:**
+
+- Will you use a planning tool (Jamboard, Figma) to plan your design/app structure?
+- How are you going to work in the team? Mob, smaller groups or pairs etc.
+<!-- Mob -->
+- What is your quiz about?
+<!-- Developer jokes (matrix code backgroundvideo) -->
+- Which are your (at least) 5 questions and answers? (Remember, multiple choices required)
+- How are you going to show the progress? i.e 1 / 5, 20%, 4 questions left.
+<!-- 1/5 to start with -->
+- How will the user select the answer? Dropdown, selecting with keyboard commands, buttons, images?
+<!-- Buttons (different color pill for each) -->
+- What will the summary screen look like?
+- What components do you need?
+<!-- Header Footer Summary CurrentQuestion -->
+- How are you dealing with the styling? CSS or Styled components?
+<!-- Styled components -->
+- What stretch goals are you aiming for?
+<!--
+- Progress bar
+- adding images for each question
+- -->
+
+https://javascript.plainenglish.io/23-funny-programmer-questions-30714f6d8164
+
+21. Question: Where do programmers hangout?
+    Answer: At Stack Overflow lounge. - Correct
+    Answer: Outside
+    Answer: Google Academy
+    Answer: At functions
+
+22. Question: What is the most popular programming problem?
+    Answer: Missing a Semicolon. - Correct
+    Answer: Lowercase/Uppercase
+    Answer: Wrong class
+    Answer: The correct amount of curly brackets
+
+23. Question: Can you summarize the life of programmers in four words?
+    Answer: Eat. Sleep. Code. Repeat. - Correct
+    Answer: Learn. Share. Teach. Explore.
+    Answer: Stand. Run. Fall. Repeat.
+    Answer: Vacation. Sunbathe. Surf. Beach.
+
+24. As a programmer, where do you see yourself 10 years from now?
+    Answer: Sitting in front of a computer, probably programming. - Correct
+    Answer: Living on a desert island without technology
+    Answer: Nextdoor to Maks - Correct
+    Answer: Still trying to understand Javascript
+
+25. Question: What is the golden rule in programming?
+    Answer: If it works, don’t touch it. - Correct
+    Answer: Everything is an array
+    Answer: You know nothing Jon Snow
+    Answer: We're not here because we're free, we're here because we are not free
