@@ -1,13 +1,14 @@
 # Redux quiz group project
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+A multiple choised quiz developed with React Redux.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+- Used selectors to access redux state and dispatch to trigger redux actions.
+- Used selectors and dispatches to interact with our Redux store
+- There is an intro page to start the quiz.
+- The summary page displays the users answers and the correct answers. The user can start the quiz again with a restart-button.
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://the-even-better-foxes.netlify.app
